@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess My Number</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="head">
+        <h3>The Number Between 1 ~ 100</h3>
+      </div>
+      <div class="logo">
+        <img src="imgs/logo.png" alt="">
+      </div>
+    </div>
+    <div class="mid">
+      <h1 id="the-number">?</h1>
+    </div>
+    <div class="bottom">
+      <form action="" onsubmit="return false;">
+        <input type="text" id="text">
+        <div class="button">
+          <input type="button" value="CHECK!" id="check">
+          <input type="button" value="AGAIN!" id="again">
+        </div>
+      </form>
+      <div class="text">
+        <div class="hint">
+          <h3 id="hint">Enter Your Number</h3>
+        </div>
+        <div class="score">
+          <div class="now inline">
+            <h3>Your Score: </h3>
+            <h3 id="score">40</h3>
+          </div>
+          <div class="height inline">
+            <h3>High Score: </h3>
+            <h3 id="height">0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
