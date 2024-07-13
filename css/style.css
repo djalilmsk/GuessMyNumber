@@ -66,10 +66,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-.bottom input[type ="text"] {
-  padding: 30px 0;
+.bottom input[type ="number"] {
+  padding: 30px 20px;
   font-size: 3rem;
-  max-width: 210px;
+  max-width: 175px;
   text-align: center;
   cursor: text;
 }
@@ -82,6 +82,10 @@ body {
   margin: 5px;
   font-size: 1rem;
   cursor: pointer;
+}
+.bottom .button {
+  display: flex;
+  justify-content: space-between;
 }
 .bottom .text {
   font-size: 1.4rem;

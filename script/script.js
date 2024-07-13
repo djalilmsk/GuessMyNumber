@@ -14,6 +14,7 @@ check.onclick = function () {
     hint.innerHTML = 'You win!';
     body.style.backgroundColor = 'green';
     win.innerHTML = number;
+    win.style.color = 'green';
   } else {
     if (parseInt(userInput.value) <= number - 30) {
       hint.innerHTML = 'Too Low';
@@ -39,6 +40,9 @@ check.onclick = function () {
   if (parseInt(score.innerHTML) <= 0) {
     hint.innerHTML = 'You Lose!';
     body.style.backgroundColor = 'red';
+    score.textContent = 0;
+    win.textContent = number;
+    win.style.color = 'red';
   }
 };
 
